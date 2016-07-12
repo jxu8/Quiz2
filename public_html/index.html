@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Quiz 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="container">
+                <div class ="row">
+                    <div class="col-md-3 col-lg-3 col-sm-1 col-xs-1">
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-10 col-xs-10">
+                    <form name="myform" class="form">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <p align="center" class="title">Assignment 1</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p class="lead">Username:</p>
+                            </div>    
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <input class="form-control" id="uStyle" type ="text" name ="username" value="">
+                            </div>     
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p class="lead">Password:</p>
+                            </div>    
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <input class="form-control" id="pStyle" type ="password" name ="password" value="">
+                            </div> 
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-6">
+                            </div>
+                            <div class="col-xs-6">
+                                <input class ="btn btn-default btn-xs" id="button1" type="button"
+                                       style="float: left;" onClick="Assignments.assignment1()" value="Click Here">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p class="lead" id="username"></p>
+                            </div>
+                            <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <p class="lead" id="password"></p>
+                            </div>    
+                        </div>
+                    </form>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-1 col-xs-1">
+                    </div>
+                </div>
+        </div>
+        
+        <script src = "Assignments.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </body>
+</html>

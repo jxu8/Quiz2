@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 11, 2016, 6:05:09 PM
+    Author     : jamesxu
+*/
+.title{
+    font-size:30px;
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+
+      -webkit-box-shadow:$top $left $blur $color #{$inset};
+      -moz-box-shadow:$top $left $blur $color #{$inset};
+      box-shadow:$top $left $blur $color #{$inset};
+    }
+
+$msk-blue: #1c75cd;   
+
+input[type=text]:focus{
+    border-color: msk-blue;
+}
+.form{
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#button1{
+   background-color:#1c75cd ;
+   color:white;
+}
